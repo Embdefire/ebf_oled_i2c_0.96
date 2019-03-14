@@ -8,7 +8,7 @@
   ******************************************************************************
   * @attention
   *
-  * 实验平台:秉火 F103-MINI STM32 开发板 
+  * 实验平台:野火 F103-MINI STM32 开发板 
   * 论坛    :http://www.firebbs.cn
   * 淘宝    :https://fire-stm32.taobao.com
   *
@@ -42,7 +42,7 @@ int main(void)
 		i2c_CfgGpio();				 /*I2C总线的GPIO初始化*/
 	  OLED_Init();					 /* OLED初始化 */
 
-	printf("\r\n 欢迎使用秉火 F103-MINI STM32 开发板\r\n");		
+	printf("\r\n 欢迎使用野火 F103-MINI STM32 开发板\r\n");		
 	printf("\r\n OLED软件模拟i2c测试例程 \r\n");		
 	
 	  /*OLED检测测试*/
