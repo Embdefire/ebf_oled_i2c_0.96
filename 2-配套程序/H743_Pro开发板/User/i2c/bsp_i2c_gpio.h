@@ -7,10 +7,10 @@
 #define OLED_I2C_RD	1		/* 读控制bit */
 
 /* 定义I2C总线连接的GPIO端口, 用户只需要修改下面4行代码即可任意改变SCL和SDA的引脚 */
-#define OLED_GPIO_PORT_I2C	GPIOC			/* GPIO端口 */
-#define OLED_RCC_I2C_CLK()	__HAL_RCC_GPIOC_CLK_ENABLE()		/* GPIO端口时钟 */
-#define OLED_I2C_SCL_PIN		GPIO_PIN_7			/* 连接到SCL时钟线的GPIO */
-#define OLED_I2C_SDA_PIN		GPIO_PIN_6			/* 连接到SDA数据线的GPIO */
+#define OLED_GPIO_PORT_I2C	GPIOB			/* GPIO端口 */
+#define OLED_RCC_I2C_CLK()	__HAL_RCC_GPIOB_CLK_ENABLE()		/* GPIO端口时钟 */
+#define OLED_I2C_SCL_PIN		GPIO_PIN_12			/* 连接到SCL时钟线的GPIO */
+#define OLED_I2C_SDA_PIN		GPIO_PIN_13			/* 连接到SDA数据线的GPIO */
 
 
 /* 定义读写SCL和SDA的宏，已增加代码的可移植性和可阅读性 */

@@ -22,8 +22,8 @@
 【*】 引脚分配
 
 OLED的I2C接口与STM32的I2C1相连,且已接上拉电阻。
-		SCL	<--->PC7
-		SDA	<--->PC6
+		SCL	<--->PB12
+		SDA	<--->PB13
 		
 串口(TTL-USB TO USART)：
 CH340的收发引脚与STM32的发收引脚相连。
